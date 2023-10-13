@@ -1,0 +1,9 @@
+.link-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.link-layout {
+  display: flex;
+  justify-content: space-between;
+}
