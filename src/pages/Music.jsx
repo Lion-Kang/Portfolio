@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link, Outlet } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "../App.css";
 
 function Music() {

@@ -1,4 +1,4 @@
-import { NavLink, Link, Outlet } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import React from "react";
 import "../App.css";
 

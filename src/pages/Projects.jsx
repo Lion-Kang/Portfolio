@@ -1,4 +1,4 @@
-import { NavLink, Link, Outlet } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import React from "react";
 import "../App.css";
 import tgk from "../../src/images/TGK Website.jpeg";
@@ -22,39 +22,6 @@ function Projects() {
         </NavLink>
       </nav>
       <div className="projects-container">
-        <h2>Tech Stack</h2>
-        <div className="tech-stack-outer-container">
-          <div className="tech-stack-container">
-            <div className="tech-stack-item">
-              <h4 className="project-text">JavaScript UI</h4>
-              <p className="project-text">
-                (icon)React, (icon)Create React App, (icon)Vite
-              </p>
-            </div>
-            <div className="tech-stack-item">
-              <h4 className="project-text">Frameworks</h4>
-              <p className="project-text">(icon)Next.js, (icon)Node.js</p>
-            </div>
-            <div className="tech-stack-item">
-              <h4 className="project-text">Static Web Hosting</h4>
-              <p className="project-text">(icon)Netlify, (icon)Github</p>
-            </div>
-            <div className="tech-stack-item">
-              <h4 className="project-text">Version Control</h4>
-              <p className="project-text">(icon)Github</p>
-            </div>
-            <div className="tech-stack-item">
-              <h4 className="project-text">Languages</h4>
-              <p className="project-text">
-                (icon)JavaScript, (icon)HTML, (icon)CSS, (icon)TypeScript
-              </p>
-            </div>
-            <div className="tech-stack-item">
-              <h4 className="project-text">CSS Pre-processors</h4>
-              <p className="project-text">(icon)Sass</p>
-            </div>
-          </div>
-        </div>
         <div className="project-item">
           <h3>Cooking With TGK</h3>
           <p className="project-text">
