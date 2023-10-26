@@ -7,6 +7,7 @@
 .home-text {
   display: flex;
   justify-content: center;
+  padding-top: 3em;
 }
 
 .active {
@@ -29,14 +30,37 @@
 
 .projects-container {
   width: 100%;
+  padding-top: 6em;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.tech-stack-outer-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tech-stack-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tech-stack-item {
+  padding: 2em 0;
+  max-width: 26%;
+}
+
 .project-item {
   width: 80%;
   padding: 2em 0;
+}
+
+.project-text-title {
+  font-weight: 500;
 }
 
 .project-text {
@@ -48,9 +72,8 @@ img {
   width: 100%;
 }
 
-.embed {
-  width: 100%;
-  height: 1000px;
+.embed-container {
+  padding-top: 6em;
 }
 
 .resume-pdf {
@@ -58,6 +81,42 @@ img {
   max-width: 100%;
   overflow-x: hidden;
   background-color: black;
+}
+
+.music-outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.music-container {
+  width: 80%;
+  padding-top: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.music-item {
+  min-width: 26%;
+  padding: 2em;
+}
+
+.soundcloud-link {
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 6em;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.soundcloud-link a {
+  color: black;
 }
 
 .top-button {

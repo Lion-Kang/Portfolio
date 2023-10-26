@@ -22,6 +22,39 @@ function Projects() {
         </NavLink>
       </nav>
       <div className="projects-container">
+        <h2>Tech Stack</h2>
+        <div className="tech-stack-outer-container">
+          <div className="tech-stack-container">
+            <div className="tech-stack-item">
+              <h4 className="project-text">JavaScript UI</h4>
+              <p className="project-text">
+                (icon)React, (icon)Create React App, (icon)Vite
+              </p>
+            </div>
+            <div className="tech-stack-item">
+              <h4 className="project-text">Frameworks</h4>
+              <p className="project-text">(icon)Next.js, (icon)Node.js</p>
+            </div>
+            <div className="tech-stack-item">
+              <h4 className="project-text">Static Web Hosting</h4>
+              <p className="project-text">(icon)Netlify, (icon)Github</p>
+            </div>
+            <div className="tech-stack-item">
+              <h4 className="project-text">Version Control</h4>
+              <p className="project-text">(icon)Github</p>
+            </div>
+            <div className="tech-stack-item">
+              <h4 className="project-text">Languages</h4>
+              <p className="project-text">
+                (icon)JavaScript, (icon)HTML, (icon)CSS, (icon)TypeScript
+              </p>
+            </div>
+            <div className="tech-stack-item">
+              <h4 className="project-text">CSS Pre-processors</h4>
+              <p className="project-text">(icon)Sass</p>
+            </div>
+          </div>
+        </div>
         <div className="project-item">
           <h3>Cooking With TGK</h3>
           <p className="project-text">
@@ -39,9 +72,45 @@ function Projects() {
           </p>
           <img src={tgk} />
         </div>
-        <p>Kim's Salon</p>
-        <p>Diamond Auto Repair</p>
-        <p>StellarScape Technologies</p>
+        <div className="project-item">
+          <h3>Kim's Salon</h3>
+          <p className="project-text">
+            Beaverton, Oregon local hair stylist Kim has been in business for
+            over 3 decades. All of her business has been through word-of-mouth
+            and referral. Making a website to meet her online needs was a great
+            learning process to solidify my understanding of HTML and CSS.
+          </p>
+          <p>(Image)</p>
+          <img src="" />
+        </div>
+        <div className="project-item">
+          <h3>Diamond Auto Repair</h3>
+          <p className="project-text">
+            Another Beaverton, Oregon local, Haider works on mechaincal issues
+            for foreign and domestic vehicles. As his business gets larger, he
+            needed a way to dominate his online presence. Using webflow, I was
+            able to quickly produce a wireframe template. I want to eventually
+            convert this website into a react app.
+          </p>
+          <p>(Image)</p>
+          <img src="" />
+        </div>
+        <div className="project-item">
+          <h3>StellarScape Technologies</h3>
+          <p className="project-text">
+            My most recent WordPress project, I created a custom child theme
+            from an existing parent theme. I was able to enqueue custom
+            JavaScript and CSS. I also organized the CSS using a stylesheet
+            preprocessor called Sass. Using a program called Local, I was able
+            to host this Wordpress project locally before testing it online.
+            Local made it easy to transfer files from my desktop to laptop.
+          </p>
+          <p>(Image)</p>
+          <img src="" />
+        </div>
+      </div>
+      <div className="top-button">
+        <a href="#">Back to top</a>
       </div>
     </div>
   );
